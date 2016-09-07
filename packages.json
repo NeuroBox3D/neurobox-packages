@@ -6,7 +6,7 @@
 			"url":				"https://github.com/NeuroBox3D/plugin_Neurolucida.git",
 			"repoType":			"git",
 			"defaultBranch":	"master",
-			"prefix":			"apps",
+			"prefix":			"plugins",
 			"license":			"lgpl_ug4",
 			"categories":		["ug4", "apps"],
 			"dependencies":		[
@@ -19,6 +19,31 @@
 					]
 				}
 			]
-		}
+		},
+		
+		{
+			"name":				"Neurolucida App",
+			"url":				"https://github.com/NeuroBox3D/app_Neurolucida.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"apps",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "apps"],
+			"dependencies":		[
+				{
+					"packages":	[
+						{
+							"name":		"ConvectionDiffusion",
+							"branch":	"master"
+						},
+						{
+							"name": "Neurolucida",
+							"branch": "master"
+						}
+					]
+				}
+			]
+		},
+		
 	]
 }
