@@ -8,7 +8,7 @@
       "defaultBranch":  "master",
       "prefix":     "plugins",
       "license":      "lgpl_ug4",
-      "categories":   ["ug4", "plugins],
+      "categories":   ["ug4", "plugins"],
       "dependencies":   [
         {
           "packages": [
@@ -34,14 +34,14 @@
             {
               "name":   "ugcore",
               "branch": "master"
-            },
-            {
+             },
+              {
               "name":   "ProMesh",
               "branch": "master"
-            }
-          ]
-        }
-      ]
+              }
+            ]
+          }
+        ]
     },
     {
       "name":       "Neurolucida App",
