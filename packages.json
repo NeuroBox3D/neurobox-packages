@@ -78,7 +78,7 @@
         {
           "packages": [
             {
-              "name":   "ugcore"
+              "name":   "ugcore",
               "branch": "master"
             },
               "name": "SkinLayerGenerator",
