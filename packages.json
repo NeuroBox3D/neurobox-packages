@@ -44,7 +44,7 @@
         ]
     },
     {
-      "name":       "Neurolucida App",
+      "name":       "NeurolucidaApp",
       "url":        "https://github.com/NeuroBox3D/app_Neurolucida.git",
       "repoType":     "git",
       "defaultBranch":  "master",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "name":       "SkinLayerGenerator App",
+      "name":       "SkinLayerGeneratorApp",
       "url":        "https://github.com/NeuroBox3D/app_SkinLayerGenerator.git",
       "repoType":     "git",
       "defaultBranch":  "master",
