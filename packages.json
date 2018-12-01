@@ -107,6 +107,25 @@
             ]
           }
         ]
+    },
+    {
+      "name":       "mdfe",
+      "url":        "https://github.com/NeuroBox3D/plugin_CrackGenerator.git",
+      "repoType":     "git",
+      "defaultBranch":  "master",
+      "prefix":     "plugins",
+      "license":      "lgpl_ug4",
+      "categories":   ["ug4", "plugins"],
+      "dependencies":   [
+        {
+          "packages": [
+            {
+              "name":   "ugcore",
+              "branch": "master"
+             }
+            ]
+          }
+        ]
     }
   ]
 }
