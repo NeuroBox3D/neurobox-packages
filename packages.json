@@ -110,7 +110,7 @@
     },
     {
       "name":       "mdfe",
-      "url":        "https://github.com/NeuroBox3D/plugin_CrackGenerator.git",
+      "url":        "https://gitlab.com/stephanmg/mdfe.git",
       "repoType":     "git",
       "defaultBranch":  "master",
       "prefix":     "plugins",
