@@ -1,131 +1,156 @@
 {
-  "minUGHubVersion":  "1.0.0",
-  "packages": [
-    {
-      "name":       "Neurolucida",
-      "url":        "https://github.com/NeuroBox3D/plugin_Neurolucida.git",
-      "repoType":     "git",
-      "defaultBranch":  "master",
-      "prefix":     "plugins",
-      "license":      "lgpl_ug4",
-      "categories":   ["ug4", "plugins"],
-      "dependencies":   [
-        {
-          "packages": [
-            {
-              "name":   "ugcore",
-              "branch": "master"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name":       "SkinLayerGenerator",
-      "url":        "https://github.com/NeuroBox3D/plugin_SkinLayerGenerator.git",
-      "repoType":     "git",
-      "defaultBranch":  "master",
-      "prefix":     "plugins",
-      "license":      "lgpl_ug4",
-      "categories":   ["ug4", "plugins"],
-      "dependencies":   [
-        {
-          "packages": [
-            {
-              "name":   "ugcore",
-              "branch": "master"
-             },
-              {
-              "name":   "ProMesh",
-              "branch": "master"
-              }
-            ]
-          }
-        ]
-    },
-    {
-      "name":       "NeurolucidaApp",
-      "url":        "https://github.com/NeuroBox3D/app_Neurolucida.git",
-      "repoType":     "git",
-      "defaultBranch":  "master",
-      "prefix":     "apps",
-      "license":      "lgpl_ug4",
-      "categories":   ["ug4", "apps"],
-      "dependencies":   [
-        {
-          "packages": [
-            {
-              "name":   "ConvectionDiffusion",
-              "branch": "master"
-            },
-            {
-              "name": "Neurolucida",
-              "branch": "master"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name":       "SkinLayerGeneratorApp",
-      "url":        "https://github.com/NeuroBox3D/app_SkinLayerGenerator.git",
-      "repoType":     "git",
-      "defaultBranch":  "master",
-      "prefix":     "apps",
-      "license":      "lgpl_ug4",
-      "categories":   ["ug4", "apps"],
-      "dependencies":   [
-        {
-          "packages": [
-            {
-              "name":   "ugcore",
-              "branch": "master"
-            },
-            {
-              "name": "SkinLayerGenerator",
-              "branch": "master"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name":       "CrackGenerator",
-      "url":        "https://github.com/NeuroBox3D/plugin_CrackGenerator.git",
-      "repoType":     "git",
-      "defaultBranch":  "master",
-      "prefix":     "plugins",
-      "license":      "lgpl_ug4",
-      "categories":   ["ug4", "plugins"],
-      "dependencies":   [
-        {
-          "packages": [
-            {
-              "name":   "ugcore",
-              "branch": "master"
-             }
-            ]
-          }
-        ]
-    },
-    {
-      "name":       "mdfe",
-      "url":        "https://gitlab.com/stephanmg/mdfe.git",
-      "repoType":     "git",
-      "defaultBranch":  "master",
-      "prefix":     "plugins",
-      "license":      "lgpl_ug4",
-      "categories":   ["ug4", "plugins"],
-      "dependencies":   [
-        {
-          "packages": [
-            {
-              "name":   "ugcore",
-              "branch": "master"
-             }
-            ]
-          }
-        ]
-    }
-  ]
+	"minUGHubVersion":  "1.0.0",
+	"packages": [
+		{
+			"name":				"cable_neuron",
+			"url":				"https://github.com/NeuroBox3D/cable_neuron.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_neurobox",
+			"categories":		["ug4", "plugins", "neurobox"],
+			"dependencies":		[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"name":				"Neurolucida",
+			"url":				"https://github.com/NeuroBox3D/plugin_Neurolucida.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "plugins", "neurobox"],
+			"dependencies":		[
+				{
+		  			"packages": [
+						{
+			  				"name":		"ugcore",
+			  				"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+    
+		{
+			"name":				"SkinLayerGenerator",
+			"url":				"https://github.com/NeuroBox3D/plugin_SkinLayerGenerator.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "plugins", "neurobox"],
+			"dependencies":		[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						},
+						{
+							"name":		"ProMesh",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"name":				"NeurolucidaApp",
+			"url":				"https://github.com/NeuroBox3D/app_Neurolucida.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"apps",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "apps", "neurobox"],
+			"dependencies":		[
+				{
+					"packages":	[
+						{
+							"name":		"ConvectionDiffusion",
+							"branch":	"master"
+						},
+						{
+							"name":		"Neurolucida",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"name":				"SkinLayerGeneratorApp",
+			"url":				"https://github.com/NeuroBox3D/app_SkinLayerGenerator.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"apps",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "apps", "neurobox"],
+			"dependencies":		[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						},
+						{
+							"name":		"SkinLayerGenerator",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"name":				"CrackGenerator",
+			"url":				"https://github.com/NeuroBox3D/plugin_CrackGenerator.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "plugins", "neurobox"],
+			"dependencies":		[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"name":				"mdfe",
+			"url":				"https://gitlab.com/stephanmg/mdfe.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "plugins", "neurobox"],
+			"dependencies":		[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		}
+	]
 }
