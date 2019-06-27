@@ -8,7 +8,7 @@
 			"defaultBranch":	"master",
 			"prefix":			"plugins",
 			"license":			"",
-			"categories":		["ug4", "plugins"],
+			"categories":		["ug4", "plugins", "neurobox"],
 			"dependencies":[
 				{
 					"packages":	[
