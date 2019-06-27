@@ -2,6 +2,26 @@
 	"minUGHubVersion":  "1.0.0",
 	"packages": [
 		{
+			"name":				"neuro_collection",
+			"url":				"https://github.com/NeuroBox3D/neuro_collection.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"",
+			"categories":		["ug4", "plugins"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+
+		{
 			"name":				"cable_neuron",
 			"url":				"https://github.com/NeuroBox3D/cable_neuron.git",
 			"repoType":			"git",
