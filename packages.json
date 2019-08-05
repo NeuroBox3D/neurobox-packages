@@ -171,28 +171,6 @@
 					]
 				}
 			]
-		},
-		
-		{
-			"name":				"ElementQualityStatistics",
-			"url":				"https://github.com/NeuroBox3D/ElementQualityStatistics.git",
-			"repoType":			"git",
-			"defaultBranch":		"master",
-			"prefix":			"plugins",
-			"license":			"lgpl_neurobox",
-			"categories":			["ug4", "plugins", "neurobox"],
-			"dependencies":			
-			[
-				{
-					"packages":	
-					[
-						{
-							"name":		"ugcore",
-							"branch":	"master"
-						}
-					]
-				}
-			]
 		}
 	]
 }
