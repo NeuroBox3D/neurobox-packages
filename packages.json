@@ -1,6 +1,26 @@
 {
 	"minUGHubVersion":  "1.0.0",
 	"packages": [
+        {
+            "name":             "electro_diffusion",
+            "url":              "https://github.com/NeuroBox3D/electro_diffusion.git",
+            "repoType":         "git",
+            "defaultBranch":    "master",
+            "prefix":           "plugins",
+            "license":          "",
+            "categories":       ["ug4", "plugins", "neurobox"],
+            "dependencies":[
+                {
+                    "packages": [
+                        {
+                            "name":     "ugcore",
+                            "branch":   "master"
+                        }
+                    ]
+                }
+            ]
+        },
+
 		{
 			"name":				"neuro_collection",
 			"url":				"https://github.com/NeuroBox3D/neuro_collection.git",
