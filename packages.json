@@ -7,7 +7,7 @@
             "repoType":         "git",
             "defaultBranch":    "master",
             "prefix":           "plugins",
-            "license":          "",
+            "license":          "lgpl_neurobox",
             "categories":       ["ug4", "plugins", "neurobox"],
             "dependencies":[
                 {
@@ -27,7 +27,7 @@
 			"repoType":			"git",
 			"defaultBranch":	"master",
 			"prefix":			"plugins",
-			"license":			"",
+			"license":			"lgpl_neurobox",
 			"categories":		["ug4", "plugins", "neurobox"],
 			"dependencies":[
 				{
@@ -50,6 +50,26 @@
 			"license":			"lgpl_neurobox",
 			"categories":		["ug4", "plugins", "neurobox"],
 			"dependencies":		[
+				{
+					"packages":	[
+						{
+							"name":		"ugcore",
+							"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"name":				"MembranePotentialMapping",
+			"url":				"https://github.com/NeuroBox3D/MembranePotentialMapping.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_neurobox",
+			"categories":		["ug4", "plugins", "neurobox"],
+			"dependencies":[
 				{
 					"packages":	[
 						{
