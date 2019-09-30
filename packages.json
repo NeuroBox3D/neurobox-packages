@@ -60,7 +60,7 @@
 				}
 			]
 		},
-
+        
 		{
 			"name":				"cable_neuron_app",
 			"url":				"https://github.com/NeuroBox3D/cable_neuron_app.git",
@@ -84,6 +84,30 @@
 				}
 			]
 		},
+
+        {
+            "name":             "calciumDynamics_app",
+            "url":              "https://github.com/NeuroBox3D/calciumDynamics_app.git",
+            "repoType":         "git",
+            "defaultBranch":    "master",
+            "prefix":           "apps",
+            "license":          "lgpl_neurobox",
+            "categories":       ["ug4", "apps", "neurobox"],
+            "dependencies":[
+                {
+                    "packages": [
+                        {
+                            "name":     "ConvectionDiffusion",
+                            "branch":   "master"
+                        },
+                        {
+                            "name":     "neuro_collection",
+                            "branch":   "master"
+                        }
+                    ]
+                }
+            ]
+        },
 
 		{
 			"name":				"MembranePotentialMapping",
