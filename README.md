@@ -15,3 +15,17 @@ and install one of them using
 ughub install <plugin name>
 ```
 All dependencies will also be installed / updated to the most recent version.
+
+## list of provided packages
+- electro_diffusion
+- neuro_collection
+- cable_neuron
+- cable_neuron_app
+- calciumDynamics_app
+- MembranePotentialMapping
+- Neurolucida
+- NeurolucidaApp
+- SkinLayerGenerator
+- SkinLayerGeneratorApp
+- CrackGenerator
+- mdfe
