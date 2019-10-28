@@ -23,6 +23,7 @@ All dependencies will also be installed / updated to the most recent version.
 - cable_neuron_app
 - calciumDynamics_app
 - MembranePotentialMapping
+- MembranePotentialMapping_app
 - Neurolucida
 - NeurolucidaApp
 - SkinLayerGenerator

@@ -130,6 +130,70 @@
 		},
 
 		{
+			"name":				"MembranePotentialMapping_app",
+			"url":				"https://github.com/NeuroBox3D/MembranePotentialMapping_app.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"apps",
+			"license":			"lgpl_neurobox",
+			"categories":		["ug4", "apps", "neurobox"],
+			"dependencies":[
+				{
+					"packages":	[
+						{
+							"name":		"ConvectionDiffusion",
+							"branch":	"master"
+						},
+						{
+							"name":		"cable_neuron",
+							"branch":	"master"
+						},
+						{
+							"name":		"neuro_collection",
+							"branch":	"master"
+            },
+						{
+							"name":		"MembranePotentialMapping",
+							"branch":	"master"
+            }
+					]
+				}
+			]
+		},
+
+
+
+		{
+			"name":				"Neurolucida",
+			"url":				"https://github.com/NeuroBox3D/plugin_Neurolucida.git",
+			"repoType":			"git",
+			"defaultBranch":	"master",
+			"prefix":			"plugins",
+			"license":			"lgpl_ug4",
+			"categories":		["ug4", "plugins", "neurobox"],
+			"dependencies":		[
+				{
+		  			"packages": [
+						{
+			  				"name":		"ugcore",
+			  				"branch":	"master"
+						}
+					]
+				}
+			]
+		},
+    
+		{
+			"name":				"SkinLayerGenerator",
+			"url":				"https://github.com/NeuroBox3D/plugin_SkinLayerGenerator.git",
+					]
+				}
+			]
+		},
+
+
+
+		{
 			"name":				"Neurolucida",
 			"url":				"https://github.com/NeuroBox3D/plugin_Neurolucida.git",
 			"repoType":			"git",
