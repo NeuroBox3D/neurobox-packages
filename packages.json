@@ -151,47 +151,15 @@
 						{
 							"name":		"neuro_collection",
 							"branch":	"master"
-            },
+						},
 						{
 							"name":		"MembranePotentialMapping",
 							"branch":	"master"
-            }
-					]
-				}
-			]
-		},
-
-
-
-		{
-			"name":				"Neurolucida",
-			"url":				"https://github.com/NeuroBox3D/plugin_Neurolucida.git",
-			"repoType":			"git",
-			"defaultBranch":	"master",
-			"prefix":			"plugins",
-			"license":			"lgpl_ug4",
-			"categories":		["ug4", "plugins", "neurobox"],
-			"dependencies":		[
-				{
-		  			"packages": [
-						{
-			  				"name":		"ugcore",
-			  				"branch":	"master"
 						}
 					]
 				}
 			]
 		},
-    
-		{
-			"name":				"SkinLayerGenerator",
-			"url":				"https://github.com/NeuroBox3D/plugin_SkinLayerGenerator.git",
-					]
-				}
-			]
-		},
-
-
 
 		{
 			"name":				"Neurolucida",
